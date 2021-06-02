@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
-
 # contacts/model.py
-
 
 """This module provides a model to manage the contacts table."""
 
-
 from PyQt6.QtCore import Qt
-
 from PyQt6.QtSql import QSqlTableModel
-
 
 class ContactsModel:
     def __init__(self):
