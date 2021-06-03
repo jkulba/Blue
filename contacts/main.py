@@ -3,12 +3,15 @@
 
 """This module provides Blue Contacts application."""
 
-import sys
+import sys, logging
 
 from PyQt6.QtWidgets import QApplication
 
 from .database import createConnection
 from .views import Window
+
+# Prepare the logger
+_logger = logging.getLogger('contacts')
 
 def main():
     """Blue Contacts main function."""
@@ -20,5 +23,6 @@ def main():
     # Create the main window if the connection succeeded
     win = Window()
     win.show()
+    _logger.debug("Show window")
     # Run the event loop
     sys.exit(app.exec())
