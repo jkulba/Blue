@@ -1,6 +1,9 @@
 # Blue
 DotNet Blazor WASM with Tailwind CSS
 
+> [!NOTE]
+> Pre-installed software: DotNet 8.x, Npm 9.2.0, Node 18.19.0
+
 ### Commands
 (1) Create project with DotNet CLI
 ```shell
