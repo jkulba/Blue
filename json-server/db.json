@@ -1,0 +1,32 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "alice123",
+        "email": "alice@example.com",
+        "age": 28,
+        "location": "Los Angeles, CA",
+        "interests": ["hiking", "photography", "cooking"],
+        "premium_member": true
+      },
+      {
+        "id": 2,
+        "username": "bob456",
+        "email": "bob@example.com",
+        "age": 35,
+        "location": "New York, NY",
+        "interests": ["travel", "music", "reading"],
+        "premium_member": false
+      },
+      {
+        "id": 3,
+        "username": "carol789",
+        "email": "carol@example.com",
+        "age": 22,
+        "location": "Chicago, IL",
+        "interests": ["painting", "yoga", "gardening"],
+        "premium_member": true
+      }
+    ]
+  }
+  
